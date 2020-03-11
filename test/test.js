@@ -6,7 +6,7 @@ describe('binarySearch', () => {
     // it should accept an sorted array of numbers and a target as an arg
 
     context('when the target is contained in the array', () => {
-        it ('should return true', () => {
+        it('should return true', () => {
             expect(binarySearch([5, 10, 12, 15, 20, 30, 70], 12)).to.equal(true);
             expect(binarySearch([1, 2, 2, 3], 1)).to.equal(true);
         });
