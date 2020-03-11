@@ -28,6 +28,7 @@ describe('binarySearchIndex', () => {
             expect(binarySearchIndex([5, 10, 12, 15, 20, 30, 70], 12)).to.equal(2);
             expect(binarySearchIndex([1, 2, 3], 1)).to.equal(0);
             expect(binarySearchIndex([1, 2, 3], 2)).to.equal(1);
+            expect(binarySearchIndex([1, 2, 3], 3)).to.equal(2);
 
         });
     });
